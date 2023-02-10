@@ -1,0 +1,411 @@
+.Conteiner__TituloCertificados {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.Conteiner__TituloCertificados svg {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0.55rem 0.55rem 0;
+}
+
+.Conteiner__Certificados {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-left: 8%;
+  width: 80%;
+}
+
+.CursoemVideo {
+  width: 50%;
+  margin-left: 23%;
+}
+
+.Img__Certificado {
+  border-radius: 8%;
+  width: 100%;
+}
+
+.Itens__Certificados {
+  border-radius: 8%;
+  margin: 0.75rem;
+}
+
+.Img__Certificado:hover {
+  transition: all 1s;
+  transform: scale(2.5);
+}
+
+.Secao__Certificados {
+  align-items: center;
+  background: linear-gradient(black, black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 900px;
+}
+
+.Titulo__Certificados {
+  border-bottom: 1px solid white;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.udemy {
+  border-radius: 8%;
+  width: 98%;
+}
+
+@media screen and (max-width: 1680px) {
+    .Conteiner__TituloCertificados {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 45px;
+      }
+     
+      
+ 
+  }
+  @media screen and (max-width: 1366px) {
+   .borda{
+    margin-bottom: 5rem;
+
+   }
+    .Conteiner__TituloCertificados {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
+    .Secao__Certificados {
+      align-items: center;
+      background: linear-gradient(black, black);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 760px;
+    
+    }
+    .Img__Certificado{
+      width: 95%;
+    }
+
+    .Itens__Certificados {
+      cursor: pointer;
+      width: 200px;
+      
+    }
+   
+  }
+  @media screen and (max-width: 1360px) {
+    .borda{
+     margin-bottom: 5rem;
+ 
+    }
+     .Conteiner__TituloCertificados {
+       align-items: center;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+     }
+     .Secao__Certificados {
+       align-items: center;
+       background: linear-gradient(black, black);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 760px;
+     
+     }
+     .Img__Certificado{
+       width: 95%;
+     }
+ 
+     .Itens__Certificados {
+       cursor: pointer;
+       width: 200px;
+       
+     }
+    
+   }
+  
+
+@media screen and (max-width: 1024px) {
+  ul{
+    width:96%;
+  }
+  .borda{
+    width: 100%;
+  }
+
+  .Secao__Certificados {
+    align-items: center;
+    background: linear-gradient(black, black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+  }
+  .Img__Certificado{
+    width: 100%;
+  }
+
+  .borda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 6em 0;
+  }
+  .Conteiner__TituloCertificados{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.55rem 0.55rem 0;
+    margin: 0 0 0 1.5rem;
+  }
+  
+
+  .Itens__Certificados {
+    cursor: pointer;
+    width: 180px;
+  }
+
+  .Titulo__Certificados {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 768px) {
+  ul{
+    width: 90%;
+  }
+  .borda{
+    width: 100%;
+  }
+
+  .Secao__Certificados {
+    align-items: center;
+    background: linear-gradient(black, black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+  }
+
+  .borda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 6em 0;
+  }
+  .Conteiner__TituloCertificados{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.57rem 0.58rem 0;
+    margin: 0 0 0 1.5rem;
+  }
+  .Img__Certificado{
+    width: 115%;
+  }
+
+
+  .Itens__Certificados {
+    cursor: pointer;
+    width: 180px;
+  }
+
+  .Titulo__Certificados {
+    font-size: 38px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  ul{
+    width: 90%;
+ 
+ 
+  }
+  .Conteiner__Certificados {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+  
+  
+    
+  }
+
+  .Secao__Certificados {
+    background: linear-gradient(black, black);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+   
+
+  }
+
+  .borda {
+
+    display: flex;
+  
+  
+    margin: 0 1rem 6rem 0;
+    width: 90%;
+  }
+  .Conteiner__TituloCertificados{
+
+    padding: 0.55rem 0.55rem 0;
+    margin: 0 0 0 2.5rem;
+  }
+  .Img__Certificado{
+    width: 65px;
+    flex-wrap: wrap;
+  }
+
+
+  .Itens__Certificados {
+    cursor: pointer;
+    margin: 0.25rem;
+
+  }
+
+  .Titulo__Certificados {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  ul{
+    width: 90%;
+ 
+ 
+  }
+  .Conteiner__Certificados {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+
+    
+  }
+
+  .Secao__Certificados {
+    background: linear-gradient(black, black);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    
+
+  }
+
+  .borda {
+  
+    display: flex;
+    margin: 0 1rem 6rem 0;
+    width: 90%;
+  }
+  .Conteiner__TituloCertificados{
+
+    padding: 0.55rem 0.55rem 0;
+    margin: 0 0 0 2.5rem;
+  }
+  .Img__Certificado{
+    width: 55px;
+    height: 50px;
+  
+  }
+
+
+  .Itens__Certificados {
+    cursor: pointer;
+    margin: 0.25rem;
+
+  }
+
+  .Titulo__Certificados {
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width: 320px) {
+   ul{
+    width: 90%;
+ 
+ 
+  }
+  .Conteiner__Certificados {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+
+    
+  }
+
+  .Secao__Certificados {
+    background: linear-gradient(black, black);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    
+
+  }
+
+  .borda {
+  
+    display: flex;
+    margin: 0 1rem 6rem 0;
+    width: 90%;
+  }
+  .Conteiner__TituloCertificados{
+
+    padding: 0.55rem 0.55rem 0;
+    margin: 0 0 0 2.5rem;
+  }
+  .Img__Certificado{
+    width: 50px;
+    height: 44px;
+  
+  }
+
+
+  .Itens__Certificados {
+    cursor: pointer;
+    margin: 0.15rem;
+
+  }
+
+  .Titulo__Certificados {
+    font-size: 20px;
+  }
+  .Img__Certificado:hover {
+    transition: all 1s;
+    transform: scale(2.8);
+  }
+}
+
+

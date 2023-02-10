@@ -1,0 +1,575 @@
+.Section__Contact{
+    align-items: center;
+    background: linear-gradient(#223622,#5b885b) ;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content:flex-start;
+
+}
+
+.Container__Contact{
+    align-items: center;
+    background-color: #1b1a1a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width:100%;
+}
+
+.Container__MsgContact{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em;
+    justify-content: center;
+
+
+}
+
+.Container__Form{
+    display:flex ; 
+    height: 500px;
+    margin: 2rem;
+    width: 30%;
+  
+}
+
+.Container__TitleP{
+    align-items:center;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 1rem;
+}
+
+.Container__TitleP svg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: .55rem .55rem 0 ;
+
+
+
+}
+.diferente{
+    display: none;
+}
+.Title__P{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.title__Contact{
+    color: #ffffff;
+    font-size: 1.36rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.Dowload__Cv{
+    background: #305230;
+    border: 1.2px solid #161d16;
+    border-radius: .25rem;
+    font-size: 1.26rem;
+    margin-bottom: 5%;
+    padding: .55rem;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.Dowload__Cv:hover{
+    border-radius: .25rem;
+    background: #368336;
+    border: 1.2px solid #161d16;
+    padding: .45rem;
+    transform: scale(1.1);   
+}
+
+.Form__Contact{
+    display:flex ;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+}
+
+.Input__Contact{
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
+    margin: 1rem .80rem 1rem 1rem;
+    padding: 1rem;
+    width: 100%;
+
+
+}
+.Input__Contact--textarea{
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2em;
+    margin: 1rem .80rem 1rem 1rem;
+    padding: 1rem;
+    width: 100%;
+
+}
+.span__submit{
+    background-color: greenyellow;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    margin: 1rem .1rem 1rem 1rem;
+    padding:.55rem;
+    text-align:center;
+    transition: all 0.5s;
+    width: 103%;
+   
+
+   
+}
+
+.span__submit:hover{
+    border: none;
+    background-color: rgb(132, 216, 5);
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    width: 103%;
+    text-align: center;
+    padding: .55rem;
+    margin: 1rem .1rem 1rem 1rem;
+  
+}
+
+.Img__Contact{
+    width: 65%;
+}
+.btn__submit{
+    border: none;   
+    background-color:transparent;
+    border-radius:1%;
+    cursor: pointer;
+    color: rgb(18, 19, 24);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+@media screen and (max-width: 1680px) {
+    .Section__Contact{
+        height: 840px;      
+    }
+    .Container__Contact{
+        margin-top: 2rem;  
+    }
+    .Container__TitleP{
+
+        margin-top: 3.4rem;
+    
+    
+    }
+    .diferente{
+        display: none;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        justify-content:flex-start;
+    
+    }
+    .diferente{
+        display: none;
+    }
+    
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1rem;
+        height: 500px;
+        width:100%;
+    }
+    
+    .Container__MsgContact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 1em 1em;
+        justify-content: center;
+    
+    
+    }
+    
+    .Container__Form{
+        display:flex ; 
+        height: 450px;
+        margin: 2rem;
+        width: 30%;
+      
+    }
+    
+    .Container__TitleP{
+        align-items:center;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        margin-top: 0;
+    }
+    
+    .Container__TitleP svg{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: .55rem .55rem 0 ;
+    
+    
+    
+    }
+    .Title__P{
+        color: aliceblue;
+        font-size: 2rem;
+    }
+    .title__Contact{
+        color: #ffffff;
+        font-size: 1.26rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+    
+    .Dowload__Cv{
+        background: #305230;
+        border: 1.2px solid #161d16;
+        border-radius: .25rem;
+        font-size: 1.26rem;
+        margin-bottom: 4%;
+        padding: .55rem;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    
+}
+@media screen and (max-width: 1360px) {
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        justify-content:flex-start;
+    
+    }
+    .diferente{
+        display: none;
+    }
+    
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1rem;
+        height: 500px;
+        width:100%;
+    }
+    
+    .Container__MsgContact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 1em 1em;
+        justify-content: center;
+    
+    
+    }
+    
+    .Container__Form{
+        display:flex ; 
+        height: 450px;
+        margin: 2rem;
+        width: 30%;
+      
+    }
+    
+    .Container__TitleP{
+        align-items:center;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        margin-top: 0;
+    }
+    
+    .Container__TitleP svg{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: .55rem .55rem 0 ;
+    
+    
+    
+    }
+    .Title__P{
+        color: aliceblue;
+        font-size: 2rem;
+    }
+    .title__Contact{
+        color: #ffffff;
+        font-size: 1.26rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+    
+    .Dowload__Cv{
+        background: #305230;
+        border: 1.2px solid #161d16;
+        border-radius: .25rem;
+        font-size: 1.26rem;
+        margin-bottom: 4%;
+        padding: .55rem;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1349px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 800px;
+        justify-content:flex-start;
+    
+    }
+    .diferente{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 700px;
+        justify-content:flex-start;
+    
+    }
+        
+    .Container__TitleP{
+        align-items:center;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        margin-top: 15px;
+    }
+    .diferente{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 800px;
+        justify-content:flex-start;
+    
+    }
+    .diferente{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Container__MsgContact{
+        display: none;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 800px;
+        justify-content:flex-start;
+    
+    }
+    .Container__Form{
+        display:flex ; 
+        height: 450px;
+        margin-left: -1.5rem;   
+        width: 90%;
+      
+    }
+    .diferente{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+    }
+    .Dowload__Cv{
+        background: #305230;
+        border: 1.2px solid #161d16;
+        border-radius: .25rem;
+        font-size: 1.26rem;
+        margin-bottom: 4%;
+        margin-left: 4rem;
+        padding: .55rem;
+        transition: all 0.5s ease-in-out;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Container__MsgContact{
+        display: none;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 800px;
+        justify-content:flex-start;
+    
+    }
+    .Container__Form{
+        display:flex ; 
+        height: 450px;
+        margin-left: -1.5rem;   
+        width: 80%;
+      
+    }
+    .diferente{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+    }
+    .Dowload__Cv{
+        background: #305230;
+        border: 1.2px solid #161d16;
+        border-radius: .25rem;
+        font-size: 1.26rem;
+        margin-bottom: 4%;
+        margin-left: 4rem;
+        padding: .55rem;
+        transition: all 0.5s ease-in-out;
+       
+    }
+}
+@media screen and (max-width: 320px) {
+    .Container__Contact{
+        align-items: center;
+        background-color: #1b1a1a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width:100%;
+    }
+    .Container__MsgContact{
+        display: none;
+    }
+    .Section__Contact{
+        align-items: center;
+        background: linear-gradient(#223622,#5b885b) ;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 800px;
+        justify-content:flex-start;
+    
+    }
+    .Container__Form{
+        display:flex ; 
+        height: 450px;
+        margin-left: -1.5rem;   
+        width: 80%;
+      
+    }
+    .diferente{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+    }
+    .Dowload__Cv{
+        background: #305230;
+        border: 1.2px solid #161d16;
+        border-radius: .25rem;
+        font-size: 1.26rem;
+        margin-bottom: 4%;
+        margin-left: 4rem;
+        padding: .55rem;
+        transition: all 0.5s ease-in-out;
+       
+    }
+}
+

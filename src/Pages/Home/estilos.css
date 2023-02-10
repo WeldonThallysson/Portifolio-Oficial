@@ -1,0 +1,1410 @@
+.Avatar {
+  border-radius: 100%;
+  height: 280px;
+  margin-bottom: 1%;
+  object-fit: contain;
+  width: 100%;
+}
+.Conteiner__icone {
+  align-items: center;
+  bottom: 130px;
+  background-color: rgb(17, 17, 19);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: center;
+  left: 608px;
+  position: absolute;
+  padding: 1rem;
+  width: 18%;
+}
+
+.Conteiner__Img {
+  bottom: 300px;
+  border-radius: 50%;
+  background-color: rgba(0, 65, 0, 0.295);
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  left: 39.3%;
+  position: absolute;
+  width: 18%;
+
+}
+
+.Conteiner__RedesSociais {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+  margin-top: 10%;
+
+}
+
+.Conteiner__Textos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40%;
+}
+
+.Img__Fundo {
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid rgb(11, 53, 11);
+  background-color: rgba(223, 243, 192, 0.671);
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+
+
+}
+
+
+
+.imagem {
+  height: 800px;
+  opacity: 0.3;
+  width: 100%;
+}
+
+
+
+.icone {
+  height: 400px;
+  width: 100%;
+
+}
+
+.Titulo {
+  color: aliceblue;
+  font-size: 1.65em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.Descricao {
+  bottom: 65px;
+  color: aliceblue;
+  position: absolute;
+  text-align: center;
+
+}
+
+.fundopreto {
+  background-color: black;
+  height: 800px;
+}
+
+.Conteiner__TituloPrincipal {
+  align-items: center;
+  bottom: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 450px;
+  position: absolute;
+
+}
+
+.Titulo__Principal {
+  color: rgb(240, 248, 255);
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.Conteiner__Ensignias {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ensignias {
+  border-radius: 50%;
+  margin: 0.35rem;
+  padding: 0.43rem;
+  transition: all 1s;
+
+
+}
+
+.react:hover {
+  background-color: rgb(42, 61, 165);
+  border-radius: 50%;
+}
+
+.html:hover {
+  background-color: brown;
+  border-radius: 50%;
+
+}
+
+.css3:hover {
+  background-color: rgb(42, 110, 165);
+  border-radius: 50%;
+
+}
+
+.javascript:hover {
+  background-color: rgba(221, 135, 23, 0.932);
+  border-radius: 50%;
+
+}
+
+.reactnative:hover {
+  background-color: rgba(59, 23, 221, 0.877);
+  border-radius: 50%;
+
+}
+
+.git:hover {
+  background-color: rgb(255, 60, 0);
+  border-radius: 50%;
+
+}
+
+.github:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+
+}
+
+@media screen and (max-width: 1680px) {
+  .Conteiner__Img {
+    bottom: 380px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 39.2%;
+    position: absolute;
+    width: 17%;
+
+
+  }
+
+  .Conteiner__icone {
+    bottom: 210px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 19);
+    display: flex;
+    flex-direction: column;
+    left: 605px;
+    height: 280px;
+    padding: 1rem;
+    position: absolute;
+    width: 20%;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 505px;
+    position: absolute;
+  }
+
+  .fundopreto {
+    height: 950px;
+  }
+
+  .icone {
+    height: 850px;
+    width: 100%;
+
+  }
+
+  .imagem {
+
+    height: 950px;
+    opacity: 0.3;
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+
+  }
+}
+@media screen and (max-width: 1600px) {
+  .Conteiner__Img {
+    bottom: 380px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 40.5%;
+    position: absolute;
+    width: 17%;
+
+
+  }
+
+  .Conteiner__icone {
+    bottom: 210px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 19);
+    display: flex;
+    flex-direction: column;
+    left: 605px;
+    height: 280px;
+    padding: 1rem;
+    position: absolute;
+    width: 20%;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 505px;
+    position: absolute;
+  }
+
+  .fundopreto {
+    height: 950px;
+  }
+
+  .icone {
+    height: 850px;
+    width: 100%;
+
+  }
+
+  .imagem {
+
+    height: 950px;
+    opacity: 0.3;
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+
+  }
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .Conteiner__Img {
+    bottom: 380px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 42.1%;
+    position: absolute;
+    width: 18%;
+
+
+  }
+
+  .Conteiner__icone {
+    bottom: 210px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 19);
+    display: flex;
+    flex-direction: column;
+    left: 605px;
+    height: 280px;
+    padding: 1rem;
+    position: absolute;
+    width: 20%;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 505px;
+    position: absolute;
+  }
+
+  .fundopreto {
+    height: 850px;
+  }
+
+  .icone {
+    height: 850px;
+    width: 100%;
+
+  }
+
+  .imagem {
+
+    height: 850px;
+    opacity: 0.3;
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+
+  }
+}
+
+
+@media screen and (max-width: 1440px) {
+  .Conteiner__Img {
+    bottom: 360px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 40.5%;
+    position: absolute;
+    width: 20%;
+ 
+ 
+  }
+  
+  .Img__Fundo {
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 245px;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 6.4%;
+    width: 86.8%;
+
+    
+  }
+
+  .Conteiner__icone {
+    bottom: 200px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;   
+    height: 280px;
+    left: 555px;
+    position: absolute;
+    padding: 1rem; 
+    width: 20%;
+  }
+
+  .icone {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 430px;
+    position: absolute;
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+ 
+  }
+  .imagem {
+
+    height: 900px;
+    opacity: 0.3;
+  }
+  .fundopreto {
+    height: 900px;
+  }
+
+}
+@media screen and (max-width: 1366px) {
+  .Conteiner__Img {
+    bottom: 300px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    left: 41%;
+    position: absolute;
+    width: 18%;
+  
+   
+  }
+  
+.ensignias {
+  border-radius: 50%;
+  margin: 0.15rem 0.35rem;
+  padding: 0.33rem;
+  transition: all 1s;
+
+
+}
+  .imagem {
+    height: 806px;
+    opacity: 0.3;
+    width: 100%;
+  }
+  
+  .fundopreto {
+    background-color: black;
+    height: 806px;
+  }
+  .Img__Fundo {
+    align-items: center;
+    background-color: rgba(223, 243, 192, 0.671);
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    display: flex;
+    height: 215px;
+    justify-content: center; 
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 88%;
+   
+
+  }
+
+  .Conteiner__icone {
+    bottom: 130px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 530px;
+    position: absolute;
+    padding: 1rem;
+    width: 20%;
+  }
+
+  .icone {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 440px;
+    position: absolute;
+
+
+ 
+ 
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.55rem;
+    font-weight: bold;
+
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .Conteiner__Img {
+    bottom: 300px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    left: 41.8%;
+    position: absolute;
+    width: 18%;
+  
+   
+  }
+  
+.ensignias {
+  border-radius: 50%;
+  margin: 0.15rem 0.35rem;
+  padding: 0.33rem;
+  transition: all 1s;
+
+
+}
+  .imagem {
+    height: 808px;
+    opacity: 0.3;
+    width: 100%;
+  }
+  
+  .fundopreto {
+    background-color: black;
+    height: 808px;
+  }
+  .Img__Fundo {
+    align-items: center;
+    background-color: rgba(223, 243, 192, 0.671);
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    display: flex;
+    height: 215px;
+    justify-content: center; 
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 88%;
+   
+
+  }
+
+  .Conteiner__icone {
+    bottom: 130px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 530px;
+    position: absolute;
+    padding: 1rem;
+    width: 20%;
+  }
+
+  .icone {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 440px;
+    position: absolute;
+
+
+ 
+ 
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.55rem;
+    font-weight: bold;
+
+  }
+}
+@media screen and (max-width: 1340px) {
+  .Conteiner__Img {
+    bottom: 300px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 42.6%;
+    position: absolute;
+    width: 20%;
+  
+   
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    background-color: rgba(223, 243, 192, 0.671);
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    display: flex;
+    height: 245px;
+    justify-content: center; 
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 90%;
+   
+
+  }
+
+  .Conteiner__icone {
+    bottom: 130px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 555px;
+    position: absolute;
+    padding: 1rem;
+    width: 20%;
+  }
+
+  .icone {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 430px;
+    position: absolute;
+
+
+ 
+ 
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+
+  }
+}
+
+
+@media screen and (max-width: 1240px) {
+  .Conteiner__Img {
+    bottom: 300px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    left: 42.6%;
+    position: absolute;
+    width: 20%;
+  
+   
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    background-color: rgba(223, 243, 192, 0.671);
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    display: flex;
+    height: 225px;
+    justify-content: center; 
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 90%;
+   
+
+  }
+
+  .Conteiner__icone {
+    bottom: 130px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    left: 512px;
+    position: absolute;
+    padding: 1rem;
+    width: 20%;
+  }
+
+  .icone {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 380px;
+    position: absolute;
+
+
+ 
+ 
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+
+  }
+  .Descricao {
+    bottom: 65px;
+    font-size: 0.76rem;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+  
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Conteiner__Img {
+    background-color: rgba(0, 65, 0, 0.295);
+    bottom: 400px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    left: 41%;
+    position: absolute;  
+    width: 20%;
+  }
+
+  .Avatar {
+    border-radius: 100%;  
+    height: 280px;
+    margin-left: 0;
+    margin-bottom: 1%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .imagem {
+    width: 100%;
+    height: 810px;
+
+  }
+
+  .fundopreto {
+    background-color: black;
+    width: 100%;
+    height: 810px;
+  }
+
+  .Img__Fundo {
+    align-items: center;  
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 180px;
+    justify-content: center;  
+    margin-top: 6.5%;
+    margin-left: 4.8%; 
+    width: 90%;
+
+ 
+  
+  }
+
+  .Conteiner__icone {
+    bottom: 220px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    left: 400px; 
+    padding: 1rem;
+    position: absolute;
+    width: 20%; 
+   
+  }
+
+  .icone {
+    height: 400px;
+    width: 100%;
+
+  }
+
+  .Conteiner__Textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    margin-top: 37%;
+  }
+
+  .Titulo {
+    color: aliceblue;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Descricao {
+    bottom: 85px;
+    color: aliceblue;
+    font-size: 0.86rem;
+    position: absolute; 
+    text-align: center;
+  }
+
+  .Conteiner__RedesSociais {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    margin-top: 25%;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    left: 245px;
+    position: absolute;
+   
+  
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+   
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fundopreto {
+    height: 850px;
+    width: 100%;
+
+  }
+
+  .imagem {
+    height: 850px;
+    width: 100%;
+ 
+  }
+
+  .Conteiner__Img {
+    background-color: rgba(0, 65, 0, 0.295);
+    bottom: 400px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    left: 40%;
+    position: absolute;
+    width: 23%;
+ 
+
+    
+  }
+
+  .Avatar {
+    border-radius: 100%;
+    height: 280px;
+    margin-left: 0;
+    margin-bottom: 1%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid rgb(11, 53, 11);
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 148px;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 86%; 
+  }
+
+  .Conteiner__icone {
+    bottom: 220px;
+    background-color: rgb(17, 17, 19);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    left: 285px;
+    position: absolute;
+    padding: 1rem;
+    width: 23%;
+  }
+
+  .icone {
+    height: 400px;
+    width: 100%;
+  }
+
+  .Conteiner__Textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 32%;
+  }
+
+  .Titulo {
+    color: aliceblue;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  .Descricao {
+    bottom: 85px;
+    color: aliceblue;
+    font-size: 0.86rem;
+    position: absolute;
+    text-align: center;
+  }
+
+  .Conteiner__RedesSociais {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    margin-top: 25%;
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 155px;  
+    position: absolute;
+  }
+
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.45rem;
+    font-weight: bold;
+ 
+  }
+
+  .Conteiner__Ensignias {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .ensignias {
+    border-radius: 50%;
+    padding: 0.43rem;
+    margin: 0.3rem;
+    transition: all 1s;
+  
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fundopreto {
+    height: 750px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .imagem {
+    height: 750px;
+    width: 100%;
+ 
+  }
+
+  .Conteiner__Img {
+    bottom: 410px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    left: 31%;
+    position: absolute;
+    width: 40%;
+  }
+
+  .Avatar {
+    border-radius: 100%;
+    height: 280px;
+    margin-left: 0;
+    margin-bottom: 1%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    border: 1px solid rgb(11, 53, 11);
+    border-radius: 100%;
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 127px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 9%;
+    width: 80%;
+
+   
+  }
+
+  .Conteiner__icone {
+    bottom: 220px;
+    background-color: rgb(17, 17, 19);
+    border-radius:10px;
+    display: flex;
+    flex-direction:column;
+    height: 240px;
+    left: 95px;
+    padding: 1rem;
+    position: absolute;
+    width: 45%;
+  }
+  .icone {
+    height: 400px;
+    width: 100%;
+  }
+
+  .Conteiner__Textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 33%;
+  }
+
+  .Titulo {
+    color: aliceblue;      
+    font-size: 1.15em;
+    font-weight: bold;
+    text-align: center; 
+  }
+  .Descricao {
+    bottom: 70px;
+    color: aliceblue;
+    font-size: 0.86rem;
+    position: absolute;
+    text-align: center;   
+  }
+
+  .Conteiner__RedesSociais {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    margin-top: 28%; 
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 25px; 
+    position: absolute;
+  }
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1.10rem;
+    font-weight: bold;
+    width: 100%;
+
+   
+  }
+
+  .Conteiner__Ensignias {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .ensignias {
+    border-radius: 50%;
+    margin: 0.1em;
+    padding: 0.43rem;
+    transition: all 1s;
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fundopreto {
+    height: 750px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .imagem {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+ 
+  }
+
+  .Conteiner__Img {
+    bottom: 390px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    left: 28%;
+    position: absolute;
+    width: 43%;
+  }
+
+  .Avatar {
+    border-radius: 100%;
+    height: 280px;
+    margin-left: 0;
+    margin-bottom: 1%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    border: 1px solid rgb(11, 53, 11);
+    border-radius: 100%;
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 127px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 9%;
+    width: 80%;
+
+   
+  }
+
+  .Conteiner__icone {
+    bottom: 200px;
+    background-color: rgb(17, 17, 19);
+    border-radius:10px;
+    display: flex;
+    flex-direction:column;
+    height: 240px;
+    left: 75px;
+    padding: 1rem;
+    position: absolute;
+    width: 50%;
+  }
+  .icone {
+    height: 400px;
+    width: 100%;
+  }
+
+  .Conteiner__Textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 33%;
+  }
+
+  .Titulo {
+    color: aliceblue;      
+    font-size: 1.15em;
+    font-weight: bold;
+    text-align: center; 
+  }
+  .Descricao {
+    bottom: 70px;
+    color: aliceblue;
+    font-size: 0.86rem;
+    position: absolute;
+    text-align: center;   
+  }
+
+  .Conteiner__RedesSociais {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    margin-top: 28%; 
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 10px; 
+    position: absolute;
+  }
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 95%;
+
+   
+  }
+
+  .Conteiner__Ensignias {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .ensignias {
+    border-radius: 50%;
+    margin: 0.1em;
+    padding: 0.43rem;
+    transition: all 1s;
+
+  }
+}
+@media screen and (max-width: 320px) {
+  .fundopreto {
+    height: 750px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .imagem {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+ 
+  }
+
+  .Conteiner__Img {
+    bottom: 320px;
+    border-radius: 50%;
+    background-color: rgba(0, 65, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    height: 135px;
+    left: 27.5%;
+    position: absolute;
+    width: 43%;
+  }
+
+  .Avatar {
+    border-radius: 100%;
+    height: 280px;
+    margin-left: 0;
+    margin-bottom: 1%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .Img__Fundo {
+    align-items: center;
+    border: 1px solid rgb(11, 53, 11);
+    border-radius: 100%;
+    background-color: rgba(223, 243, 192, 0.671);
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 9%;
+    width: 80%;
+
+   
+  }
+
+  .Conteiner__icone {
+    bottom: 160px;
+    background-color: rgb(17, 17, 19);
+    border-radius:10px;
+    display: flex;
+    flex-direction:column;
+    height: 210px;
+    left: 60px;
+    padding: 1rem;
+    position: absolute;
+    width: 50%;
+  }
+  .icone {
+    height: 400px;
+    width: 100%;
+  }
+
+  .Conteiner__Textos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 33%;
+  }
+
+  .Titulo {
+    color: aliceblue;      
+    font-size: 1.05em;
+    font-weight: bold;
+    text-align: center; 
+  }
+  .Descricao {
+    bottom: 70px;
+    color: aliceblue;
+    font-size: 0.86rem;
+    position: absolute;
+    text-align: center;   
+  }
+
+  .Conteiner__RedesSociais {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    margin-top: 28%; 
+  }
+
+  .Conteiner__TituloPrincipal {
+    align-items: center;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 2px; 
+    position: absolute;
+  }
+  .Titulo__Principal {
+    color: rgb(240, 248, 255);
+    font-size: .85rem;
+    font-weight: bold;
+    width: 96%;
+    margin-left: 10px; 
+
+   
+  }
+
+  .Conteiner__Ensignias {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .ensignias {
+    border-radius: 50%;
+    margin: 0.1em;
+    padding: 0.23rem;
+    transition: all 1s;
+
+  }
+}
