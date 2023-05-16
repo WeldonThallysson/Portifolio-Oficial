@@ -1,0 +1,336 @@
+.Conteiner__Cabecalho{
+    background-color: rgb(5, 6, 15);
+    display: flex;
+    height: 65px;
+    justify-content: space-between; 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+   
+  
+
+}
+.Titulo__Cabacalho{
+    color: aliceblue;
+    font-size: 1.45em;
+    margin-left: 5em;
+
+}
+
+.Conteiner__Navegacao{
+    display: flex;
+    flex-direction: row;       
+    align-items: center;
+    margin-right: 5em;
+}
+
+
+.Lista__Itens{
+    display: flex;  
+    align-items: center;
+    
+}
+
+.Itens{
+    font-size: 1rem;
+    padding: 10px 0.75rem;
+
+     
+
+}
+.Link{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 0.40rem 1.75rem;
+   
+}
+
+.Link:hover{
+    transition: all 1s;
+    filter: drop-shadow(1px 2px 6px rgba(23, 31, 4, 0.884));    
+    background-color: rgb(76, 148, 5);
+    border-radius: 3px;
+ 
+}
+
+
+@media screen and (max-width: 1024px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width:100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 1;
+        z-index: 1;
+    }
+    .Titulo__Cabacalho{
+        color: aliceblue;
+        font-size: 1.45em;
+        margin-left: 2em;
+        margin-top: 10px;
+    
+    }
+    .Lista__Itens{
+        display: flex;  
+        align-items: center;
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width: 100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 0.9;
+    }
+    .Lista__Navegacao{
+        width: 100%;
+         
+    }
+    .Titulo__Cabacalho{
+        color: aliceblue;
+        font-size: 1.25em;
+        margin-left: 2em;
+        margin-top: 0.8em;
+    
+    }
+    .Conteiner__Navegacao{
+        display: flex;
+        flex-direction: row;       
+        align-items: center;
+        margin-right: 5em;
+    }
+ 
+    .Itens{
+        font-size: 0.90rem;
+        padding: 10px 20px;
+    
+         
+    
+    }
+    .Link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 0.5em 0.5em;
+       
+    }
+}
+
+
+
+@media screen and (max-width: 425px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width: 100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 0.9;
+    }
+
+    .Titulo__Cabacalho{
+        display: none;
+        color: aliceblue;
+        font-size: 0.75em;
+     
+    
+    }
+
+    .Lista__Navegacao{
+       
+    }
+    .Lista__Itens{
+        
+    }
+    .Conteiner__Navegacao{
+        display: flex;
+        flex-direction: row;       
+        margin-left: 0;
+    
+    }
+    .Itens{
+        font-size: 0.37rem;
+        padding: 5px;
+    
+         
+    
+    }
+    .Itens{
+        font-size: 0.64rem;
+        padding: 10px ;
+    
+         
+    
+    }
+    .Link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 0 0;
+       
+    }
+}
+@media screen and (max-width: 414px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width: 100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 0.9;
+    }
+
+    .Titulo__Cabacalho{
+        display: none;
+        color: aliceblue;
+        font-size: 0.75em;
+     
+    
+    }
+
+    .Lista__Navegacao{
+       
+    }
+    .Lista__Itens{
+        
+    }
+    .Conteiner__Navegacao{
+        display: flex;
+        flex-direction: row;       
+        margin-left: 0;
+    
+    }
+    .Itens{
+        font-size: 0.37rem;
+        padding: 5px;
+    
+         
+    
+    }
+    .Itens{
+        font-size: 0.64rem;
+        padding: 10px ;
+    
+         
+    
+    }
+    .Link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 0 0;
+       
+    }
+}
+@media screen and (max-width: 375px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width: 100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 0.9;
+    }
+
+    .Titulo__Cabacalho{
+        display: none;
+        color: aliceblue;
+        font-size: 0.75em;
+     
+    
+    }
+
+    .Lista__Navegacao{
+       
+    }
+    .Lista__Itens{
+        
+    }
+    .Conteiner__Navegacao{
+        display: flex;
+        flex-direction: row;       
+        margin-left: 0;
+    
+    }
+    .Itens{
+        font-size: 0.37rem;
+        padding: 5px;
+    
+         
+    
+    }
+    .Itens{
+        font-size: 0.64rem;
+        padding: 10px ;
+    
+         
+    
+    }
+    .Link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 0 0;
+       
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .Conteiner__Cabecalho{
+        display: flex;
+        width: 100%;
+        background-color:transparent;   
+        justify-content: space-between; 
+        background-color: rgb(5, 6, 15);
+        opacity: 0.9;
+    }
+
+    .Titulo__Cabacalho{
+        display: none;
+        color: aliceblue;
+        font-size: 0.75em;
+     
+    
+    }
+
+    .Lista__Navegacao{
+       
+    }
+    .Lista__Itens{
+        
+    }
+    .Conteiner__Navegacao{
+        display: flex;
+        flex-direction: row;       
+        margin-left: -1.8rem;
+    
+    }
+    .Itens{
+        font-size: 0.37rem;
+        padding: 5px;
+    
+         
+    
+    }
+    .Itens{
+        font-size: 0.64rem;
+        padding: 8px ;
+    
+         
+    
+    }
+    .Link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 0 0;
+       
+    }
+    
+}
+
+
+
+

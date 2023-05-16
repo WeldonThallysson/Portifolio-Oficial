@@ -1,0 +1,2215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;700&display=swap');
+
+
+.Conteiner__PrincipalQs {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+
+}
+
+.Conteiner__Skills {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 36%;
+    width: 60%;
+
+
+}
+
+.Conteiner__SobreMim {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 36%;
+    width: 60%;
+
+
+}
+
+.Conteiner__LinhaDecorada {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.Conteiner1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.Conteiner__ImgRetangulo {
+    display: flex;
+
+}
+
+.Descricao__Geral {
+    color: aliceblue;
+    font-size: .90rem;
+    text-align: left;
+    width: 95%;
+
+
+
+}
+
+.Desenvolvimento__Sites {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    margin-bottom: 0;
+    padding: 0.45rem;
+}
+
+.Desenvolvimento__Mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0.45rem;
+
+}
+
+.fundo__video {
+
+    height: 1100px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+
+
+}
+
+.fundo__video::after {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+    content: "";
+    left: 0;
+    position: absolute;
+    margin-top: 5%;
+    height: 1100px;
+    width: 100%;
+
+}
+
+
+.Git__GitHub {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+    margin-bottom: 1%;
+    padding: 0.45rem;
+
+}
+
+
+.Img__Retangulo {
+    height: 665px;
+    position: absolute;
+    right: -20%;
+    top: 1.5%;
+    width: 480px;
+}
+
+.Linha__Decorada {
+    width: 82%;
+}
+
+.Logica__Programacao {
+    display: flex;
+    flex-direction: column;
+    padding: 0.45rem;
+
+}
+
+.Pai {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    width: 100%;
+
+
+}
+
+.Retangulo__Img {
+    background-repeat: no-repeat;
+    background-color: #1c1d1f;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 5px black);
+    height: 675px;
+    left: 16%;
+    margin: 1em;
+    position: absolute;
+    width: 20%;
+}
+
+
+
+.retangulo {
+
+    background-color: #1c1d1f;
+    border-radius: 2px;
+    height: 650px;
+    width: 80%;
+
+
+}
+
+
+.Subtitulo {
+    color: #396e53;
+    flex-wrap: wrap;
+}
+
+.Titulo__Skills {
+    color: white;
+    font-size: 1.55rem;
+    font-weight: 700;
+
+
+}
+
+
+.video {
+    left: 0;
+    top: 0;
+    height: 1200px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+@media screen and (max-width: 1920px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 850px;
+        justify-content: space-around;
+    }
+
+    .fundo__video {
+
+        height: 900px;
+        position: absolute;
+        top: 100%;
+        z-index: -1;
+
+
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        left: 0;
+        position: absolute;
+        top: -4%;
+        height: 900px;
+        width: 100%;
+
+    }
+    .video {
+        left: 0;
+        top: 0;
+        height: 1200px;
+        width: 100%;
+        z-index: -1;
+    
+    }
+}
+@media screen and (max-width: 1680px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 850px;
+        justify-content: space-around;
+    }
+
+    .fundo__video {
+
+        height: 900px;
+        position: absolute;
+        top: 90%;
+        z-index: -1;
+
+
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 8%;
+        height: 900px;
+        width: 100%;
+
+    }
+    .video {
+        left: 0;
+        top: 0;
+        height: 1200px;
+        width: 100%;
+        z-index: -1;
+    
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 850px;
+        justify-content: space-around;
+    }
+
+    .fundo__video {
+
+        height: 900px;
+        position: absolute;
+        top: 90%;
+        z-index: -1;
+
+
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 10%;
+        height: 1200px;
+        width: 100%;
+
+    }
+    .video {
+        left: 0;
+        top: 0;
+        height: 1300px;
+        width: 100%;
+        z-index: -1;
+    
+    }
+}
+@media screen and (max-width: 1500px) {
+    .Conteiner__PrincipalQs { 
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 850px;
+        justify-content: space-around;
+    }
+
+    .fundo__video {
+
+        height: 900px;
+        position: absolute;
+        top: 105%;
+        z-index: -1;
+
+
+
+    }
+    .video {
+        left: 0;
+        height: 950px;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 1.5%;
+        height: 900px;
+        width: 100%;
+
+    }
+}
+@media screen and (max-width: 1440px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+        justify-content: space-around;
+    }
+
+    .fundo__video {
+
+        height: 920px;
+        position: absolute;
+        top: 100%;
+        z-index: -1;
+
+
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        left: 0;
+        position: absolute;
+        height: 950px;
+        top: -5%;
+        width: 100%;
+
+    }
+
+    .video {
+        left: 0;
+        height: 980px;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+
+
+}
+@media screen and (max-width: 1366px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 750px;
+        justify-content: space-around;
+
+
+    }
+
+    .fundo__video {
+        display: flex;
+        position: absolute;
+        top: 115%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .fundo__video::after {
+
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        height: 900px;
+        left: 0;
+        position: absolute;
+        top: 1%;
+        width: 100%;
+
+    }
+
+
+    .Img__Retangulo {
+        height: 620px;
+        position: absolute;
+        right: -18%;
+        top: 8%;
+        width: 375px;
+    }
+
+
+    .video {
+        height: 900px;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6%;
+        margin-bottom: 1%;
+        padding: 0.45rem;
+    
+    }
+    
+    
+    .Img__Retangulo {
+        height: 550px;
+        position: absolute;
+        right: -18%;
+        top: 0;
+        width: 420px;
+    }
+     
+    
+    .Retangulo__Img {
+        background-repeat: no-repeat;
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        filter: drop-shadow(1px 1px 5px black);
+        height: 550px;
+        left: 12%;
+        margin-bottom: 5%;
+        position: absolute;
+        width: 22%;
+    }
+    
+    
+    
+    .retangulo {
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        height: 535px;
+        margin-bottom:4%;
+        width: 85%;
+    
+    
+    }
+    
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Titulo__Skills {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+    
+    
+    }
+    .Descricao__Geral {
+        color: aliceblue;
+        font-size: .78rem;
+        text-align: left;
+        width: 95%;
+    
+    
+    
+    }
+
+}
+@media screen and (max-width: 1360px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 750px;
+        justify-content: space-around;
+        
+
+    }
+
+    .fundo__video {
+        display: flex;
+        position: absolute;
+        top: 115%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .fundo__video::after {
+
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        height: 900px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+
+
+    .Img__Retangulo {
+        height: 620px;
+        position: absolute;
+        right: -18%;
+        top: 0;
+        width: 420px;
+    }
+
+
+    .video {
+        height: 900px;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6%;
+        margin-bottom: 1%;
+        padding: 0.45rem;
+    
+    }
+    
+    
+    .Img__Retangulo {
+        height: 550px;
+        position: absolute;
+        right: -20%;
+        top: 0;
+        width: 430px;
+    }
+     
+    
+    .Retangulo__Img {
+        background-repeat: no-repeat;
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        filter: drop-shadow(1px 1px 5px black);
+        height: 550px;
+        left: 12%;
+        margin-bottom: 5%;
+        position: absolute;
+        width: 22%;
+    }
+    
+    
+    
+    .retangulo {
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        height: 535px;
+        margin-bottom:4%;
+        width: 85%;
+    
+    
+    }
+    
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Titulo__Skills {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+    
+    
+    }
+    .Descricao__Geral {
+        color: aliceblue;
+        font-size: .78rem;
+        text-align: left;
+        width: 95%;
+    
+    
+    
+    }
+
+}
+
+
+@media screen and (max-width: 1344px) {
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: 750px;
+        justify-content: space-around;
+        
+
+    }
+
+    .fundo__video {
+        display: flex;
+        position: absolute;
+        top: 125%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .fundo__video::after {
+
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        height: 900px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+
+
+    .Img__Retangulo {
+        height: 620px;
+        position: absolute;
+        right: -18%;
+        top: 0;
+        width: 420px;
+    }
+
+
+    .video {
+        height: 900px;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6%;
+        margin-bottom: 1%;
+        padding: 0.45rem;
+    
+    }
+    
+    
+    .Img__Retangulo {
+        height: 550px;
+        position: absolute;
+        right: -20%;
+        top: 0;
+        width: 430px;
+    }
+     
+    
+    .Retangulo__Img {
+        background-repeat: no-repeat;
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        filter: drop-shadow(1px 1px 5px black);
+        height: 550px;
+        left: 12%;
+        margin-bottom: 5%;
+        position: absolute;
+        width: 22%;
+    }
+    
+    
+    
+    .retangulo {
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        height: 535px;
+        margin-bottom:4%;
+        width: 85%;
+    
+    
+    }
+    
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        
+    }
+    
+    .Titulo__Skills {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+    
+    
+    }
+    .Descricao__Geral {
+        color: aliceblue;
+        font-size: .78rem;
+        text-align: left;
+        width: 95%;
+    
+    
+    
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1240px) {
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 750px;
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 7em;
+        position: absolute;
+
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 7em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+
+    .Descricao__Geral {
+
+        color: aliceblue;
+        font-size: .80rem;
+        text-align: left;
+        width: 100%;
+
+    }
+
+
+    .fundo__video {
+        display: flex;
+        position: absolute;
+        top: 115%;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        height: 900px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+
+
+    .Img__Retangulo {
+        display: none;
+    }
+
+
+    .Logica__Programacao {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+    .Retangulo__Img {
+        display: none;
+        background-repeat: no-repeat;
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        display: none;
+        filter: drop-shadow(1px 1px 5px black);
+        height: 675px;
+        margin: 1em;
+        left: 41%;
+        position: absolute;
+        width: 22%;
+
+
+    }
+
+    .retangulo {
+        margin-left: 2%
+    }
+
+    .Subtitulo {
+        font-size: 15px;
+
+    }
+
+
+    .video {
+        height: 900px;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+
+
+
+}
+@media screen and (max-width: 1024px) {
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 800px;
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 7em;
+        position: absolute;
+
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 7em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+
+    .Descricao__Geral {
+
+        color: aliceblue;
+        font-size: .80rem;
+        text-align: left;
+        width: 100%;
+
+    }
+
+
+    .fundo__video {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        z-index: -1;
+
+    }
+
+    .fundo__video::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        content: "";
+        height: 900px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+
+
+    .Img__Retangulo {
+        display: none;
+    }
+
+
+    .Logica__Programaca {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+    .Retangulo__Img {
+        display: none;
+        background-repeat: no-repeat;
+        background-color: #1c1d1f;
+        border-radius: 2px;
+        display: none;
+        filter: drop-shadow(1px 1px 5px black);
+        height: 675px;
+        margin: 1em;
+        left: 41%;
+        position: absolute;
+        width: 22%;
+
+
+    }
+
+    .retangulo {
+        margin-left: 2%;
+        height: 600px;
+    }
+
+    .Subtitulo {
+        font-size: 15px;
+
+    }
+
+
+    .video {
+        height: 900px;
+        left: 0;
+        object-fit: cover;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .Conteiner1 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 8em;
+        position: absolute;
+
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 8em;
+        padding-top: 1em;
+
+    }
+
+
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+
+   
+        width: 90%;
+        height: 550px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+
+        position: absolute;
+        left: 5%;
+        width: 30%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 8.2%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: .60rem;
+
+        color: aliceblue;
+    }
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 105%;
+        height: 950px;
+
+    }
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 950px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 950px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 850px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 120%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 2em;
+        position: absolute;
+        width: 78%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: .50rem;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 100%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        
+        width: 90%;
+        height: 500px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 900px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 900px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 120%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 2em;
+        position: absolute;
+        width: 78%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: .50rem;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 75%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        
+        width: 90%;
+        height: 500px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 900px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 900px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+}
+@media screen and (max-width: 412px) {
+    
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 120%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        margin: 0 2em;
+        position: absolute;
+        width: 78%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: .50rem;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 75%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        
+        width: 90%;
+        height: 500px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 900px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 900px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+}
+@media screen and (max-width: 390px) {
+
+
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 130%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        gap: 0;
+       
+        position: absolute;
+        width: 72%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: -2%;
+        margin-bottom: 1%;
+        margin-top: -8%;
+        padding: 0.45rem;
+    
+    }
+    .Desenvolvimento__Mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: -3%;
+        padding: 0.45rem;
+    
+    }
+    
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: 7px;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 100%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        margin-bottom: 58%;
+        width: 88%;
+        height: 450px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 1000px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 130%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        gap: 0;
+       
+        position: absolute;
+        width: 76%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        padding: 0.45rem;
+    
+    }
+    .Desenvolvimento__Mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2%;
+        padding: 0.45rem;
+    
+    }
+    
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: .50rem;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 100%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        margin-bottom: 20%;
+        width: 90%;
+        height: 500px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 900px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 900px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+}
+@media screen and (max-width: 360px) {
+
+
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 130%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        gap: 0;
+       
+        position: absolute;
+        width: 72%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: -2%;
+        margin-bottom: 1%;
+        margin-top: -8%;
+        padding: 0.45rem;
+    
+    }
+    .Desenvolvimento__Mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: -3%;
+        padding: 0.45rem;
+    
+    }
+    
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: 7px;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 100%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        margin-bottom: 58%;
+        width: 88%;
+        height: 450px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 1000px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .Subtitulo {
+        color: #396e53;
+        flex-wrap: wrap;
+        font-size: 0.55rem;
+        width: 130%;
+    }
+
+    .Titulo__Skills {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .Pai {
+        display: flex;
+
+        width: 100%;
+        padding-top: 2em;
+
+
+    }
+
+    .Conteiner__Skills {
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        gap: 0;
+       
+        position: absolute;
+        width: 72%;    
+
+
+    }
+
+    .Conteiner__SobreMim {
+        align-items: flex-start;
+        display: flex;
+        margin-left: 2em;
+        padding-top: 1em;
+
+    }
+
+    .Conteiner__LinhaDecorada {
+        margin: 0 0;
+
+    }
+
+    .Git__GitHub {
+        display: flex;
+        flex-direction: column;
+        margin-right: -2%;
+        margin-bottom: 1%;
+        margin-top: -8%;
+        padding: 0.45rem;
+    
+    }
+    .Desenvolvimento__Mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: -3%;
+        padding: 0.45rem;
+    
+    }
+    
+    .Descricao__Geral {
+        width: 100%;
+        text-align: left;
+        font-size: 7px;
+
+        color: aliceblue;
+    }
+
+
+
+    .fundo__video {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 100%;
+
+    }
+
+    .retangulo {
+
+        background-color: #1c1d1f;
+        margin-left: 2%;
+        margin-bottom: 80%;
+        width: 88%;
+        height: 450px;
+        border-radius: 2px;
+
+    }
+
+    .Retangulo__Img {
+        position: absolute;
+        left: 8%;
+        width: 55%;
+        margin: 1em;
+        height: 675px;
+        background-color: #1c1d1f;
+
+        background-repeat: no-repeat;
+        filter: drop-shadow(1px 1px 5px black);
+        border-radius: 2px;
+    }
+
+    .Img__Retangulo {
+        position: absolute;
+        top: 7.9%;
+        right: -43%;
+        width: 445px;
+        height: 620px;
+
+
+    }
+
+
+
+    .fundo__video::after {
+        content: "";
+        position: absolute;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%);
+        ;
+        width: 100%;
+        height: 1000px;
+        top: 0;
+        left: 0;
+
+
+
+    }
+
+    .video {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1000px;
+        z-index: -1;
+
+
+
+
+
+    }
+
+    .Conteiner__PrincipalQs {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 800px;
+
+    }
+
+
+
+}
